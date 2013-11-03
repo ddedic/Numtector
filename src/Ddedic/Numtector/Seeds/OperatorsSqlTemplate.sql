@@ -1,1 +1,0 @@
-INSERT INTO #table_name# (`created_at`, `updated_at`, `country_code`, `network_code`, `network_name`, `network_prefix`) VALUES ('#datetime#', '#datetime#', '#country#', '#network_code#', '#network_name#', '#prefix#');

@@ -7,7 +7,7 @@ use Ddedic\Numtector\Operators\OperatorInterface;
 use Ddedic\Numtector\Exceptions\GatewayException;
 use Config, DB, File;
 
-ini_set('memory_limit','1G');
+ini_set('memory_limit','512M');
 
 class OperaterInsertQueue {
 
