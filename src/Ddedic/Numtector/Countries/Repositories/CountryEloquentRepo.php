@@ -11,7 +11,7 @@ class CountryEloquentRepo extends Eloquent implements CountryInterface {
     public $timestamps = false;
     protected $guarded = array();
     protected $hidden = array('id', 'name', 'numcode', 'created_at', 'updated_at');
-    // c
+
 
     public function getAll()
     {
